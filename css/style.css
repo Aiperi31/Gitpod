@@ -58,7 +58,7 @@ color: black;
 
 .hero-text h1 {
     font-family: Roboto;
-font-size: 70px;
+font-size: 60px;
 font-weight: 700;
 text-align: left;
 color: black;
@@ -91,4 +91,21 @@ line-height: 24px;
 text-align: left;
 color: rgba(18, 16, 12, 0.7);
 
+}
+.select h1 {
+    font-family: Roboto;
+font-size: 54px;
+font-weight: 700;
+line-height: 63.72px;
+text-align: center;
+color: rgba(18, 16, 12, 1);
+}
+.select h3{
+    font-family: Roboto;
+font-size: 54px;
+font-weight: 400;
+line-height: 63.72px;
+text-align: center;
+color: rgba(153, 151, 149, 1);
+text-decoration-line: line-through;
 }
