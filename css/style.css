@@ -237,4 +237,73 @@ font-weight: 400;
 line-height: 24px;
 text-align: left;
 
-  }
+}
+.logos {
+    display: flex;
+    justify-content: space-around;
+    padding: 30px 5px;
+
+}
+.logos2 {
+    display: flex;
+    justify-content: space-around;
+}
+.application-box {
+    width: 600px;
+height: 600px;
+background:rgba(255, 255, 255, 1);
+text-align: center;
+
+
+}
+.application-box {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+
+
+}
+.application h3 {
+    
+font-size: 54px;
+font-weight: 700;
+line-height: 71.82px;
+text-align: center;
+
+}
+.application-box h4 {
+    
+font-size: 32px;
+font-weight: 700;
+line-height: 40px;
+padding-top: 30px;
+
+}
+.application-box p {
+font-size: 20px;
+font-weight: 400;
+padding: 20px 0;
+
+}
+.application-button {
+    display: flex;
+    flex-direction: column;
+
+}
+.application button {
+    width: 262px;
+height: 46px;
+border-radius: 20px;
+background: rgba(252, 109, 38, 1);
+font-size: 14px;
+font-weight: 700;
+line-height: 16px;
+text-align: center;
+color: rgba(255, 255, 255, 1);
+border: none;
+}
+.application-button1 {
+    width: 530px;
+height: 56px;
+border-radius: 12px;
+}
