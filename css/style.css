@@ -462,7 +462,8 @@ color: rgba(18, 16, 12, 1);
     }
     .footer {
         width: 70%;
-     flex-wrap: wrap;
+      flex-wrap: wrap;
+     padding-left: 25px;
     
     }
 }
@@ -483,6 +484,11 @@ color: rgba(18, 16, 12, 1);
     .application button {
         width: 80%;
     }
+    .footer {
+        flex-direction: column;
+    
+    }
+    
    
     
 }
@@ -493,6 +499,11 @@ color: rgba(18, 16, 12, 1);
     .remote-button {
        width: 50%;
     }
+    .footer {
+        flex-wrap: wrap;
+    
+    }
+    
     
 }
 @media (max-width:490px) {
@@ -510,8 +521,8 @@ color: rgba(18, 16, 12, 1);
         flex-wrap: wrap;
     }
     .footer {
-        flex-direction: column;
-      align-items: center;
+        flex-wrap: wrap;
+    
     }
     
 }
