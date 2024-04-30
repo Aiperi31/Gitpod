@@ -461,15 +461,154 @@ color: rgba(18, 16, 12, 1);
      flex-wrap: wrap;
     }
     .footer {
-        width: 80%;
+        width: 70%;
+     flex-wrap: wrap;
+    
     }
 }
 
 @media (max-width:665px) {
     .remote button {
-        display: flex;
+       font-size: 15px;
+    height: 30%;
+    }
+
+    .application-box {
+        width: 80%;
+    }
+    .application-box2 {
+        width: 80%;
+        height:80%;
+    }
+    .application button {
+        width: 80%;
+    }
+   
+    
+}
+@media (max-width:530px) {
+    .logos2 {
+        flex-wrap: wrap;
+    }
+    .remote-button {
+       width: 50%;
+    }
+    
+}
+@media (max-width:490px) {
+    .hero h1 {
+        font-size: 45px;
+    }
+    .hero-group {
+        width: 80%;
+    }
+
+    .application-box button {
+        height: auto;
+    }
+    .logos {
+        flex-wrap: wrap;
+    }
+    .footer {
         flex-direction: column;
-        align-items:  center;
+      align-items: center;
+    }
+    
+}
+@media (max-width:360px) {
+    
+    .hero h1 {
+        font-size: 40px;
+    }
+    .select h3 {
+        font-size: 34px;
+    }
+    .select h1 {
+        font-size: 34px;
+    }
+    .remote-button {
+      height: 30%;
     }
 
 }
+
+@media (max-width:340px) {
+
+    .hero h1 {
+        text-align: center;
+        }
+    .hero p {
+        font-size: 13px;
+        text-align: center;
+    }
+    .hero-group {
+        width: 50%;
+    }
+    
+
+}
+@media (max-width:320px) {
+    .header {
+        width: auto;
+    }
+
+    .hero h1 {
+        font-size: 25px;
+        text-align: center;
+    }
+    .hero-box button {
+        width: auto;
+        height: 30%;
+
+    }
+    .hero-group {
+        flex-direction: column;
+        align-items: center;
+        padding-left: 50px;
+      
+        
+    }
+    .hero-group span {
+        font-size: 12px;
+        text-align: center;
+    }
+    .hero-img {
+        padding-top: 20px;
+    }
+    .document {
+        text-align: center;
+    }
+    .document-group img {
+        padding-left: 20px;
+        
+     
+    }
+
+    .logos {
+        flex-wrap: wrap;
+        width: 85%;
+    }
+    .remote button {
+        font-size: 12px;
+    }
+    .slyder h1 {
+        font-size: 45px;
+    }
+    .swiper-slide p {
+        font-size: 10px;
+
+    }
+    .swiper-slide h3 {
+        font-size: 10px;
+    }
+    .application button  {
+        font-size: 10px;
+
+    }
+    .gitpod  {
+        padding-top: 30px;
+    
+    }
+
+    }
+    
